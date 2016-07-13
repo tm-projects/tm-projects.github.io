@@ -1,0 +1,1 @@
+../_posts/2015-10-27-tabs-ioscomponents-ruby-binjekyllpage-tabs.md

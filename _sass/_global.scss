@@ -1,0 +1,55 @@
+body {
+    background: $background;
+    color: $body;
+    font-weight: normal;
+    font-family: $body-stack;
+    letter-spacing: 0.5px;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: $heading-stack;
+    color: $darkgrey;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.5em;
+    color: $bluegrey;
+}
+
+h5 {
+    font-size: 1em;
+    color: $bluegrey;
+}
+
+pre, code {
+    font-family: $code-stack;
+    border: none;
+    border-radius: 0;
+    background-color: $white;
+    font-size: 0.85em;
+}
+
+pre {
+    font-size: 1em;
+}
+
+code {
+    color: inherit;
+}
+
+a {
+    color: $blue;
+}

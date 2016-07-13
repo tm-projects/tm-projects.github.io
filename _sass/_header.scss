@@ -1,0 +1,28 @@
+#headerwrap {
+    background: $blue;
+    box-shadow: 0px 1px 4px rgba(0,0,0,.25);
+    margin-bottom: 1.2em;
+}
+
+header {
+    padding-bottom: 1.2em;
+}
+
+a.brand {
+    background: url(../images/tm-design.svg) no-repeat;
+    background-size: 100%;
+    height: 32px;
+    display: block;
+    width: 110px;
+    text-indent: -3000px;
+}
+
+header h2 {
+    color: $white;
+    font-size: 1.2em;
+    font-family: $body-stack;
+    font-weight: bolder;
+    line-height: 2.2em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}

@@ -1,0 +1,16 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+// Mixins
+@import "bourbon/bourbon";
+
+// Imports
+@import "fonts";
+@import "variables";
+
+@import "global";
+@import "header";
+@import "footer";
+@import "nav";
+@import "content";

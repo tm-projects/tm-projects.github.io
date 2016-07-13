@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "Interstate";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Interstate-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Interstate-Black.woff") format("woff"), url("../fonts/Interstate-Black.ttf") format("truetype"), url("../fonts/Interstate-Black.svg#Interstate") format("svg"); }
+@font-face {
+  font-family: "TM Sans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/TMSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/TMSans-Regular.woff") format("woff"), url("../fonts/TMSans-Regular.ttf") format("truetype"), url("../fonts/TMSans-Regular.svg#TM Sans") format("svg"); }
+@font-face {
+  font-family: "TM Sans";
+  font-style: italic;
+  font-weight: normal;
+  src: url("../fonts/TMSans-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/TMSans-Italic.woff") format("woff"), url("../fonts/TMSans-Italic.ttf") format("truetype"), url("../fonts/TMSans-Italic.svg#TM Sans") format("svg"); }
+@font-face {
+  font-family: "TM Sans";
+  font-style: normal;
+  font-weight: lighter;
+  src: url("../fonts/TMSans-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/TMSans-Light.woff") format("woff"), url("../fonts/TMSans-Light.ttf") format("truetype"), url("../fonts/TMSans-Light.svg#TM Sans") format("svg"); }
+@font-face {
+  font-family: "TM Sans";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/TMSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/TMSans-Bold.woff") format("woff"), url("../fonts/TMSans-Bold.ttf") format("truetype"), url("../fonts/TMSans-Bold.svg#TM Sans") format("svg"); }
+body {
+  background: #F6F7F9;
+  color: #475058;
+  font-weight: normal;
+  font-family: "TM Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
+  letter-spacing: 0.5px; }
+
+h1, h2, h3, h4, h5 {
+  font-family: "Interstate", Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #404141; }
+
+h1 {
+  font-size: 2em; }
+
+h2 {
+  font-size: 3em;
+  text-transform: uppercase; }
+
+h3 {
+  font-size: 2em; }
+
+h4 {
+  font-size: 1.5em;
+  color: #b9c7d0; }
+
+h5 {
+  font-size: 1em;
+  color: #b9c7d0; }
+
+pre, code {
+  font-family: "Source Code Pro", Courier, serif;
+  border: none;
+  border-radius: 0;
+  background-color: #fff;
+  font-size: 0.85em; }
+
+pre {
+  font-size: 1em; }
+
+code {
+  color: inherit; }
+
+a {
+  color: #009CDE; }
+
+#headerwrap {
+  background: #009CDE;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 1.2em; }
+
+header {
+  padding-bottom: 1.2em; }
+
+a.brand {
+  background: url(../images/tm-design.svg) no-repeat;
+  background-size: 100%;
+  height: 32px;
+  display: block;
+  width: 110px;
+  text-indent: -3000px; }
+
+header h2 {
+  color: #fff;
+  font-size: 1.2em;
+  font-family: "TM Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+  line-height: 2.2em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em; }
+
+.projects .mix,
+.projects .gap {
+  display: inline-block; }
+
+.projects .mix {
+  text-align: left;
+  display: none; }

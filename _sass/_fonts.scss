@@ -1,0 +1,5 @@
+@include font-face("Interstate", "../fonts/Interstate-Black", $file-formats: eot woff ttf svg);
+@include font-face("TM Sans", "../fonts/TMSans-Regular", normal, $file-formats: eot woff ttf svg);
+@include font-face("TM Sans", "../fonts/TMSans-Italic", normal, italic, $file-formats: eot woff ttf svg);
+@include font-face("TM Sans", "../fonts/TMSans-Light", lighter, $file-formats: eot woff ttf svg);
+@include font-face("TM Sans", "../fonts/TMSans-Bold", bold, $file-formats: eot woff ttf svg);
