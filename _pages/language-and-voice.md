@@ -1,1 +1,0 @@
-../_posts/2015-10-20-language-and-voice.md
