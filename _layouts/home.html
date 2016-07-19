@@ -34,7 +34,7 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="#">Report</a>
+	      <a class="navbar-brand" href="{{ site.baseurl }}">Report</a>
 	    </div>
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -63,7 +63,8 @@
 	      <div class="mix col-sm-12 col-md-6 col-lg-3 {% for tag in post.tags %}{{ tag }} {% endfor %}" data-myorder="{{ post.status }}">
 	      	<a class="card" href="{{ post.url }}">
 	      		<h3>{{ post.title }}</h3>
-	      		{% if post.excerpt %}{{ post.excerpt }}{% endif %}
+	      		{% if post.summary %}<h5>Summary:</h5>{{ post.summary }}{% endif %}
+	      		{% if post.next-steps %}<h5>Next Steps:</h5>{{ post.next-steps }}{% endif %}
 		    </a>
 		  </div>
 	    {% endfor %}

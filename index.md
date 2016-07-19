@@ -1,4 +1,4 @@
 ---
-layout: posts
+layout: home
 title: "Status"
 ---
