@@ -4,7 +4,7 @@ subtitle: 'This is a reporting tool for the various statuses of TM projects'
 
 # Keep as an empty string if served up at the root. If served up at a specific
 # path (e.g. on GitHub pages) leave off the trailing slash, e.g. /my-project
-baseurl: 'http://tm-projects.github.io'
+baseurl: 'https://tm-projects.github.io/'
 
 # Dates are not included in permalinks
 permalink: none
@@ -18,8 +18,8 @@ exclude: ['bin', 'README.md']
 # Prose
 prose:
   rooturl: '_posts'
-  siteurl: 'http://tm-projects.github.io'
-  relativeLinks: 'http://tm-projects.github.io'
+  siteurl: 'https://tm-projects.github.io'
+  relativeLinks: 'https://tm-projects.github.io'
   media: 'media'
   ignore:
     - index.md
