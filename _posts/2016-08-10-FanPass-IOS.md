@@ -6,7 +6,7 @@ tags:
 - iOS
 - mobile
 status: 3
-summary: Slice 2 Eric Church with editorial revisions was submitted on 8/04.
+summary: Slice 2 with editorial revisions was submitted on 8/04.
 next-steps: Continue to develop.
 ---
 
