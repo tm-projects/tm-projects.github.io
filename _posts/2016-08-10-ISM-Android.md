@@ -6,7 +6,7 @@ tags:
 - Android
 - mobile
 status: 3
-summary: Slice 2 will include resale, VIP, and multiple ticket type support. With this release Android will support 32% of events on ISM.
+summary: Slice 2, expected in Aug 2016, will include resale, VIP, and multiple ticket type support. With this release Android will support 32% of events on ISM.
 next-steps: Continue to develop.
 ---
 
