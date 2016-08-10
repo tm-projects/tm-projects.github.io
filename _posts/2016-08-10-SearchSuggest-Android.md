@@ -6,7 +6,7 @@ tags:
 - Android
 - mobile
 status: 3
-summary: Expected late Aug 2016.
+summary: Expected late Aug 2016, this includes improvements to search suggestions and results.
 next-steps: Continue to develop.
 ---
 
